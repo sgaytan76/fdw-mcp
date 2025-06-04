@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "oracle-db-server": {
+      "command": "bash",
+      "args": ["-c", "cd /Users/sergiogaytan/cursortutorial && source /Users/sergiogaytan/cursortutorial/setup_oracle_env.sh && node mcp_server.js"],
+      "cwd": "/Users/sergiogaytan/cursortutorial",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  }
+} 

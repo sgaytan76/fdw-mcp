@@ -1,0 +1,27 @@
+{
+    "schema_version": "v1",
+    "name_for_human": "Oracle Database Query Tool",
+    "name_for_model": "oracle_db_query",
+    "description_for_human": "Query and export data from Oracle database",
+    "description_for_model": "Use this tool to query the TEST_CDC table and export data to CSV from an Oracle database. The query_test_cdc command will show the first 10 rows, and export_to_csv will save them to a file.",
+    "auth": {
+        "type": "none"
+    },
+    "api": {
+        "type": "mcp",
+        "url": "tcp://localhost:1337",
+        "endpoints": {
+            "query_test_cdc": {
+                "description": "Fetch the first 10 rows from TEST_CDC table",
+                "parameters": {}
+            },
+            "export_to_csv": {
+                "description": "Export the first 10 rows from TEST_CDC table to a CSV file",
+                "parameters": {}
+            }
+        }
+    },
+    "logo_url": "",
+    "contact_email": "",
+    "legal_info_url": ""
+} 
